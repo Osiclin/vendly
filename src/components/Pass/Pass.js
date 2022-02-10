@@ -20,7 +20,7 @@ const A = ({ setState }) => {
             <div style={{marginBottom: '1.563rem'}}>
                 <Title title='Survey complete!' />
             </div>
-            <div style={{width: '100%', height: '161px', backgroundColor: '#E0FAF8', display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '6.75rem', border: '0.8px solid #82ECD3'}}>
+            <div style={{width: '100%', height: '161px', backgroundColor: '#E0FAF8', display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '2.125rem', border: '0.8px solid #82ECD3'}}>
                 <svg width="109" height="102" viewBox="0 0 109 102" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M30.6549 95.0576H6.81097V99.8108H30.6549V95.0576Z" fill="#006E72"/>
                 <path d="M13.622 7.92089H80.0438L108.997 34.8546L80.0438 61.7875H13.622V7.92089Z" fill="#17E7B3"/>
@@ -88,8 +88,8 @@ const B = () => {
                     isPaused={state.isPaused}
                 />
             </div>
-            <div style={{display: 'flex', justifyContent: 'center', marginBottom: '1.938rem'}}>
-                <div>
+            <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '1.938rem'}}>
+                <div style={{marginRight: '.5rem', display: 'flex', justifyContent: 'center'}}>
                     <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M13.8207 10.0921H12.6248V14.51H10.6528L7.7005 10.0921H3.03954V14.51H1.19508V10.0921H0V8.43059H1.19508V6.07982H0V4.4179H1.19508V0H3.16794L6.12024 4.4179H10.7812V0H12.6248V4.4179H13.8207V6.07982H12.6248V8.43059H13.8207V10.0921ZM10.7812 8.43059V6.07982H7.23136L8.80175 8.43059H10.7812ZM3.90704 4.4179L3.03954 3.12103V4.4179H3.90704ZM10.7812 11.3898V10.0925H9.91287L10.7812 11.3898ZM6.58938 8.43099L5.01817 6.0802H3.03954V8.43099H6.58856H6.58938Z" fill="black"/>
                     </svg>
