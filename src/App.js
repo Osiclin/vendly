@@ -19,12 +19,13 @@ function App() {
   return (
     <div className="App">
       <Logo/>
-      <div style={{width: '100%', border: '1px solid #82ECD3', borderRadius: '10px', backgroundColor: 'white', height: '586px'}}>
+      <div style={{width: '100%', border: '1px solid #82ECD3', borderRadius: '10px', backgroundColor: 'white', minHeight: state === 5 ? '484px' : '586px', marginTop: state === 5 && '5.5rem'}}>
         {
           state === 1 ? <Question1 load={load} /> :
           state === 2 ? <Loader/> :
           state === 3 ? <Complete setState={setState} /> :
-          <Pass/>
+          state === 4 ? <Pass state={state} setState={setState} /> :  
+          state === 5 ? <Pass state={state} setState={setState} /> : '' 
         }
       </div>
     </div>
