@@ -13,7 +13,7 @@ function App() {
     setState(2)
     setTimeout(() => {
       setState(3)
-    },3000)
+    },8000)
   }
 
   return (
