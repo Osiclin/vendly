@@ -1,23 +1,32 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Complete from './components/Complete/Complete';
+import Loader from './components/Loader/Loader';
+import Logo from './components/Logo/Logo';
+import Pass from './components/Pass/Pass';
+import Question1 from './components/Questions/Question1';
 
 function App() {
+  const [state, setState] = useState(1)
+
+  const load = () => {
+    setState(2)
+    setTimeout(() => {
+      setState(3)
+    },3000)
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Logo/>
+      <div style={{width: '100%',  height: '100%', border: '1px solid #82ECD3', borderRadius: '10px', backgroundColor: 'white', height: '586px'}}>
+        {
+          state === 1 ? <Question1 load={load} /> :
+          state === 2 ? <Loader/> :
+          state === 3 ? <Complete setState={setState} /> :
+          <Pass/>
+        }
+      </div>
     </div>
   );
 }
