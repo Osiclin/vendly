@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <Logo/>
-      <div style={{width: '100%',  height: '100%', border: '1px solid #82ECD3', borderRadius: '10px', backgroundColor: 'white', height: '586px'}}>
+      <div style={{width: '100%', border: '1px solid #82ECD3', borderRadius: '10px', backgroundColor: 'white', height: '586px'}}>
         {
           state === 1 ? <Question1 load={load} /> :
           state === 2 ? <Loader/> :
