@@ -33,7 +33,7 @@ export default function Loader() {
             <div style={{marginBottom: '1.563rem'}}>
                 <Title title='Survey...' />
             </div>
-            <div style={{width: '300px', height: '300px', backgroundColor: '#E0FAF8', display: 'flex', alignItems: 'center', marginBottom: '4.75rem'}}>
+            <div style={{width: '300px', height: '300px', backgroundColor: '#E0FAF8', display: 'flex', alignItems: 'center', marginBottom: '4.55rem'}}>
                 <Lottie options={defaultOptions}
                     height={150}
                     width={150}

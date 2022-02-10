@@ -25,10 +25,10 @@ export default function Pass() {
                 </svg>
             </div>
             <div>
-            <h1 style={{fontSize: '1.094rem', fontWeight: 800, textAlign: 'center', marginBottom: '2.375rem'}}>
+            <h1 style={{fontSize: '1.094rem', fontWeight: 800, textAlign: 'center', marginBottom: '1.4rem'}}>
                 Pass it on?
             </h1>
-            <p style={{color: '#006e72', fontWeight: 500, fontSize: '.875rem', textAlign: 'center', marginBottom: '2rem'}}>Nominate someone else to take this incentivized survey.</p>
+            <p style={{color: '#006e72', fontWeight: 500, fontSize: '.875rem', textAlign: 'center', marginBottom: '1.3rem'}}>Nominate someone else to take this incentivized survey.</p>
             <input type='text' id='twitter' name='twitter' value='Search/ Insert their Twitter handle' style={{color: '#00D0BE', fontSize: '1rem', outline: 0, marginBottom: '2.688rem', width: '100%', borderTop: 0, borderRight: 0, borderLeft: 0, borderBottom: '2.5px solid #007575'}}/>
             </div>
             <div>

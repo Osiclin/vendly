@@ -25,7 +25,7 @@ export default function Complete({setState}) {
                 </svg>
             </div>
             <h1 style={{fontSize: '1.094rem', fontWeight: 800, textAlign: 'center', marginBottom: '4.938rem'}}>
-                Thamks for your time!
+                Thanks for your time!
             </h1>
             <div>
                 <div style={{marginBottom: '1.5rem', width: '100%', position: 'relative'}}>

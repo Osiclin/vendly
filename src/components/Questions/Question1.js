@@ -1,5 +1,4 @@
 import Button from "../Button/Button";
-import Loader from "../Loader/Loader";
 import Title from "../Title/Title";
 
 export default function Question1({load}) {
@@ -19,7 +18,7 @@ export default function Question1({load}) {
                 </div>
             </div>
 
-            <div style={{padding: '0 .5rem', display: 'flex', fontSize: '0.969rem', fontWeight: 800, marginBottom: '3.125rem', lineHeight: '1.614rem'}}>
+            <div style={{padding: '0 .5rem', display: 'flex', fontSize: '0.969rem', fontWeight: 800, marginBottom: '2.5rem', lineHeight: '1.614rem'}}>
                 <div style={{marginRight: '.5rem'}}>13.</div>
                 <div>Add an attachment that reflects and portrays similar features and characteristics with the image shown below.</div>
             </div>
@@ -30,7 +29,7 @@ export default function Question1({load}) {
                 <img src='/images/114.png' width='124px' height='130px' alt='image' />
             </div>
 
-            <div style={{display: 'flex' , alignItems: 'center', color: '#82ECD3', padding: '1.5rem 2rem'}}>
+            <div style={{display: 'flex' , alignItems: 'center', color: '#82ECD3', padding: '1.438rem 2rem'}}>
                 <div style={{marginRight: '.5rem'}}>
                     <img src='/images/Vector.png' alt='icon' />
                 </div>
