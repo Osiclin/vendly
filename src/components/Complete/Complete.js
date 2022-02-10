@@ -1,5 +1,3 @@
-import { useState } from 'react';
-import Lottie from 'react-lottie';
 import Title from '../Title/Title';
 import Button from '../Button/Button';
 
